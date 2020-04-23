@@ -1,0 +1,16 @@
+JJA_Final_Project READ ME.
+
+Installation and use guide for running jupiter notebook enviorment to work with model
+
+Open: Anaconda Command > use commands below
+----------------------------------
+conda create -n tf tensorflow
+conda activate tf
+
+pip install numpy
+pip install scipy
+pip install pandas
+
+pip install jupyter
+jupyter notebook
+
