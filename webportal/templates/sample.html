@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>Some Sample Data</title>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "This contains a sampling of our data.">
+    </head>
+    <body>
+        <table>
+            <tr>
+                {% for url in samples %}
+                <td> <img src="{{ url }}" height = "250" width = "250"> </td>
+                {% endfor %}
+            </tr>
+        </table>
+        <ul>
+            <li> <a href = "http://localhost:5000/data"> Back to information about our data</a> </li>
+            <li> <a href = "http://localhost:5000/test"> To test out ML model</a></li>
+        </ul>
+    </body>
+</HTML>
